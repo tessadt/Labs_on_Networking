@@ -1,0 +1,8 @@
+Lab demonstrates essential cabling rules for PCs, servers, switches, and routers using copper straight-through, crossover, and fiber connections. 
+Devices include Switches,PCs,routers,server.
+
+
+Connected PC/Server to Switch using straight-through copper (up to 100m).
+Linked Switch to Switch with crossover copper.
+Connected Switch to Router via straight-through copper.
+Join Router to Router: crossover copper for short distances; multimode fiber (up to 550m) or single-mode fiber (e.g., 3km).
