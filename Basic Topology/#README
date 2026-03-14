@@ -1,4 +1,4 @@
-This project demonstrates a basic physical network topology simulating two corporate branches:
+Lab demonstrates a basic physical network topology simulating two corporate branches:
 New York and Tokyo.
 Connected 2 PCs, 2 Servers, 2 switches, 2 routers, 2 firewalls, an internet connection, and an attacker device .
 
