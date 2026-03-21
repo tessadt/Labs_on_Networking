@@ -1,1 +1,19 @@
 Analyzing Network Traffic using packet tracer simulation mode feature.
+The lab uses two routers (R1, R2), two switches (SW1, SW2), one server (SRV1 at 192.168.1.100), and one PC (PC1).
+Key connections include:
+
+Subnet 192.168.1.0/24: SRV1, PC1, SW1, SW2, R1 G0/0 (.1).
+
+Subnet 10.0.0.0/24: R1 G0/1 (.1), R2 G0/0 (.2).
+
+Interfaces: Gigabit Ethernet (G0/0, G0/1) and Fast Ethernet (F0/1).
+
+Lab Steps:-
+Enter Packet Tracer's simulation mode to inspect live traffic.
+
+Observe STP (Spanning Tree Protocol) from SW2: Layers 1-2 (Ethernet II frame on IEEE 802.3).
+
+View OSPF traffic from R1: Layers 1-3 (Ethernet, IP headers with source/destination).
+
+On PC1: Run ipconfig /release and ipconfig /renew for DHCP (Layer 7) packets showing Layers 1-4 & 7 (UDP L4, IP L3, Ethernet L2, physical L1; no L5-6 in TCP/IP).
+
